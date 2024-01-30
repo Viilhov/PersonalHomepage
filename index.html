@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="slideshow.css"> <!-- We'll create this stylesheet later -->
 </head>
+<!-- 
+  Challenge: Add content containers 
+    * Use a prompt to ask ChatGPT how to create
+      containers for each section
+    * Add the suggested CSS to the project
+    * Update the HTML with containers for the 
+      Projects, About, and Skills sections
+-->
 
 <body>
     <!-- Header Section -->
@@ -24,15 +32,10 @@
     </header>
 
     <!-- Projects Section -->
-    <!--
-            Challenge: Add your project slideshow
-            * Place in the HTML in the projects section
-            * Add the slideshow's CSS to slideshow.css
-            * Include the JavaScript in script.js
-        -->
+
     <section id="projects">
         <h2>Projects</h2>
-        <div class="slider">
+        <div class="container slider">
             <!-- Slide 1 -->
             <div class="slide">
                 <img src="/images/project1.jpg" alt="Project 1">
@@ -46,7 +49,7 @@
             <div class="slide">
                 <img src="/images/project2.jpg" alt="Project 2">
                 <div class="slide-content">
-                    <h2>Project 2</h2>
+                    <h3>Project 2</h3>
                     <p>Description for Project 2</p>
                 </div>
             </div>
@@ -55,7 +58,7 @@
             <div class="slide">
                 <img src="/images/project3.jpg" alt="Project 3">
                 <div class="slide-content">
-                    <h2>Project 3</h2>
+                    <h3>Project 3</h3>
                     <p>Description for Project 3</p>
                 </div>
             </div>
@@ -69,7 +72,7 @@
     <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
-        <div class="about-content">
+        <div class="container about-content">
             <img src="images/photo.jpg" alt="Guil's picture">
             <p>
                 Hi there! I'm Guil, a passionate web developer with a love for building
@@ -86,26 +89,28 @@
 
     <!-- Skills Section -->
     <section id="skills">
-        <h2>Skills</h2>
-        <div class="skill">
-            <h3>HTML</h3>
-            <p>Proficient in writing semantic and accessible HTML code for building web pages.</p>
-            <div class="progress-bar">
-                <div class="progress" style="width: 90%;">90%</div>
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skill">
+                <h3>HTML</h3>
+                <p>Proficient in writing semantic and accessible HTML code for building web pages.</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;">90%</div>
+                </div>
             </div>
-        </div>
-        <div class="skill">
-            <h3>CSS</h3>
-            <p>Skilled in styling web pages with CSS and creating responsive layouts.</p>
-            <div class="progress-bar">
-                <div class="progress" style="width: 85%;">85%</div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <p>Skilled in styling web pages with CSS and creating responsive layouts.</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;">85%</div>
+                </div>
             </div>
-        </div>
-        <div class="skill">
-            <h3>JavaScript</h3>
-            <p>Familiar with JavaScript and building interactive features for websites.</p>
-            <div class="progress-bar">
-                <div class="progress" style="width: 70%;">70%</div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <p>Familiar with JavaScript and building interactive features for websites.</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;">70%</div>
+                </div>
             </div>
         </div>
     </section>

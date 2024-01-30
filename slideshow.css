@@ -1,7 +1,5 @@
 /* Reset some default styles */
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 h2 {
@@ -14,6 +12,14 @@ h2 {
   position: relative;
   overflow: hidden;
   height: 400px; /* Adjust the height as needed */
+  border-radius: 8px;
+}
+.slider h3 {
+  font-size: 24px;
+}
+
+.slider p {
+  margin: 0;
 }
 
 /* Individual slides */

@@ -22,6 +22,11 @@ body {
   font-family: "Arial", sans-serif;
   line-height: 1.6; /* Generous line height for easier reading */
 }
+.container {
+  width: 90%;
+  max-width: 750px; /* Adjust this value as needed */
+  margin: 0 auto; /* Center align the container */
+}
 
 /* Horizontal header with center-aligned content */
 header {
@@ -60,8 +65,11 @@ nav a:hover {
 }
 
 /* Style the About section */
+
 #about {
   text-align: center;
+  padding: 20px 0;
+  background-color: #ededed;
 }
 
 .about-content {
@@ -124,10 +132,6 @@ footer {
   nav li {
     display: block;
     margin: 10px 0;
-  }
-
-  #about {
-    padding: 20px;
   }
 
   .about-content img {
