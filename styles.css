@@ -9,6 +9,11 @@ li {
   margin: 0;
   padding: 0;
 }
+h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
 
 /* Set a black-and-white color scheme */
 body {
@@ -24,6 +29,12 @@ header {
   color: #fff;
   padding: 20px 0;
   text-align: center;
+}
+p {
+  margin-bottom: 16px;
+}
+section {
+  margin: 30px 0;
 }
 
 header h1 {
@@ -44,11 +55,13 @@ nav li a {
   color: #fff;
   font-size: 18px;
 }
+nav a:hover {
+  text-decoration: underline;
+}
 
 /* Style the About section */
 #about {
   text-align: center;
-  padding: 40px;
 }
 
 .about-content {
@@ -63,9 +76,6 @@ nav li a {
 }
 
 /* Style the Skills section */
-#skills {
-  padding: 40px;
-}
 
 .skill {
   margin-bottom: 20px;

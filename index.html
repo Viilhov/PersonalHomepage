@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Personal Homepage</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="styles.css"> <!-- We'll create this stylesheet later -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="slideshow.css"> <!-- We'll create this stylesheet later -->
 </head>
 
 <body>
@@ -23,9 +24,46 @@
     </header>
 
     <!-- Projects Section -->
+    <!--
+            Challenge: Add your project slideshow
+            * Place in the HTML in the projects section
+            * Add the slideshow's CSS to slideshow.css
+            * Include the JavaScript in script.js
+        -->
     <section id="projects">
         <h2>Projects</h2>
-        <!-- Placeholder for displaying your projects -->
+        <div class="slider">
+            <!-- Slide 1 -->
+            <div class="slide">
+                <img src="/images/project1.jpg" alt="Project 1">
+                <div class="slide-content">
+                    <h2>Project 1</h2>
+                    <p>Description for Project 1</p>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slide">
+                <img src="/images/project2.jpg" alt="Project 2">
+                <div class="slide-content">
+                    <h2>Project 2</h2>
+                    <p>Description for Project 2</p>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="slide">
+                <img src="/images/project3.jpg" alt="Project 3">
+                <div class="slide-content">
+                    <h2>Project 3</h2>
+                    <p>Description for Project 3</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="dot-navigation">
+            <!-- Dot navigation will be dynamically generated using JavaScript -->
+        </div>
     </section>
 
     <!-- About Section -->
@@ -81,6 +119,7 @@
         </div>
         <p>&copy; 2023 Your Name. All rights reserved.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
